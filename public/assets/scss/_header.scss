@@ -1,0 +1,325 @@
+/*----------------------------------------*/
+/*  02. HEADER CSS START
+/*----------------------------------------*/
+
+.tranparent-header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: rgba(39, 117, 111,.2);
+	z-index: 1;
+}
+
+.logo-2{
+    background-color: $green-2;
+    padding: 22px 53px;
+}
+
+.main-menu{
+    & ul{
+        & li{
+            display: inline-block;
+            margin-right: 48px;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 2px;
+                height: 0;
+                background: #f8a683;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                transition: .3s;
+            }
+            & a{
+                color: #fff;
+                text-transform: capitalize;
+                padding: 34px 0;
+                display: block;
+                font-size: 18px;
+            }
+            &:hover{
+                & > a{
+                    color: #f8a683;
+                }
+                &::before{
+                    height: 25px;
+                }
+                & > .submenu{
+                    top: 100%;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            & .submenu{
+                position: absolute;
+                background: #fff;
+                min-width: 240px;
+                transition: .3s;
+                top: 110%;
+                left: 0;
+                padding: 14px 0;
+                opacity: 0;
+                visibility: hidden;
+                border-top: 3px solid #f8a683;
+                z-index: 1;
+
+                & li {
+                    display: block;
+                    margin: 0;
+                    & a{
+                        color: #333;
+                        padding: 10px 25px;
+                        font-size: 16px;
+                    }
+                    &::before{
+                        display: none;
+                    } 
+                    & .submenu{
+                        left: 100%;
+	                    top: 0;
+                    }
+                    &:hover{
+                        & > a{
+                            color: #f8a683;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-menu-2{
+
+    & ul{
+        & li{
+            & a{
+                color: $green-2;
+                padding: 30px 0;
+            }
+        }
+    }
+}
+
+.main-menu-3{
+    margin-left: 0;
+    & ul{
+        & li{
+            & a{
+                color: $green-2;
+                padding: 30px 0;
+            }
+        }
+    }
+}
+.header-cta {
+    margin-top: 12px;
+    & span{
+        color: $pink;
+        & a{
+            margin-left: 10px;
+            color: #fff;
+        }
+    }
+}
+
+.header-bar {
+	background: #fff;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1;
+	padding-top: 10px;
+	padding-left: 12px;
+	cursor: pointer;
+    margin-left: 50px;
+    
+    & span{
+        background: $green-2;
+        height: 2px;
+        width: 24px;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 6px;
+        padding-left: 9px;
+        transition:.3s;
+        &:nth-last-child(2){
+            width: 15px;
+        }
+    }
+    &:hover{
+        & span{
+            width: 24px;
+        }
+    }
+    &-2{
+        background: $green-2;
+        & span{
+            background: $white;
+        }
+    }
+
+}
+
+.header{
+    &__top{}
+    &__top-left{}
+    &__top-right{}
+    &__info{
+        position: relative;
+        padding-right: 33px;
+        padding-top: 13px;
+        padding-bottom: 15px;
+        margin-right: 33px;
+        &::before{
+            position: absolute;
+            content: '';
+            right: 0;
+            top: -5px;
+            width: 1px;
+            height: 87px;
+            background-color: $border-2;
+        }
+        &:last-child{
+            padding-right: 0;
+            margin-right: 0;
+            &::before{
+                display: none;
+            }
+        }
+    }
+    &__info-icon{
+        margin-right: 10px;
+        & span{
+            &::before{
+                font-size: 25px;
+                color: $green-2;
+                line-height: 1;
+                display: block;
+                margin-top: 3px;
+            }
+        }
+    }
+    &__info-text{
+        & span{
+            text-transform: uppercase;
+            color: $green-2;
+            display: block;
+            font-size: 16px;
+            line-height: 25px;
+            &:last-child{
+                text-transform: capitalize;
+            }
+        }
+    }
+    &__bottom{
+        margin-bottom: -43px;
+        position: relative;
+        z-index: 1;
+        &-3{
+            margin-bottom: 0;
+        }
+    }
+
+    &__bottom-right{
+        padding: 0 50px;
+    }
+}
+
+.info{
+    &__area{
+        &-inner{
+            position: fixed;
+            right: -100%;
+            top: 0;
+            padding: 30px;
+            width: 350px;
+            height: 100%;
+            background: $green-2 none repeat scroll 0 0;
+            overflow-y: scroll;
+            -webkit-transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            -moz-transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            @include box-shadow(-5px 0 20px -5px rgba(0, 0, 0, 0.5));
+            z-index: 11;
+        }
+        &.info-opened{
+            visibility: visible;
+            opacity: 1;
+            & .info__area-inner{
+                right: 0;
+            }
+        }
+    }
+    &__close-icon{
+        & button{
+            color: $white;
+            font-size: 20px;
+            background-color: transparent;
+        }
+    }
+    &__content{
+        margin-bottom: 30px;
+        & h4{
+            font-family: $rubik;
+            color: $white;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+        }
+        & p{
+            color: $white;
+            margin-bottom: 25px;
+        }
+    }
+    &__contact{
+        & h3{
+            font-family: $rubik;
+            color: $white;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+        }
+        & ul{
+            & li{
+                margin-bottom: 10px;
+                display: flex;
+                & .icon{
+                    & i{
+                        line-height: 27px;
+                        color: $white;
+                        margin-right: 15px;
+                    }
+                }
+                & .text{
+                    & span{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body-overlay{
+    background-color: rgba($color: #000000, $alpha: .5);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	left: 0;
+	opacity: 0;
+    visibility: hidden;
+}
+.body-overlay.opened{
+	opacity: 1;
+    visibility: visible;
+}

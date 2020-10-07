@@ -1,0 +1,62 @@
+/*----------------------------------------*/
+/*  04. FEATURES CSS START
+/*----------------------------------------*/
+
+.features-area{
+    @include background();
+}
+.features{
+    &__wrapper{
+        position: relative;
+        z-index: 1;
+    }
+    &__item{
+        padding: 44px 38px;
+        &:hover{
+            background-color: $pink;
+            & .features__icon{
+                & span{
+                    background-color: transparent;
+                    border-color: $white;
+                    &::before{
+                        color: $white;
+                    }
+                }
+            }
+            & .features__content{
+                & h3{
+                    color: $white;
+                }
+                & p{
+                    color: $white;
+                }
+            }
+        }
+    }
+    &__icon{
+        margin-right: 27px;
+        & span{
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            background-color: $green;
+            border: 1px solid transparent;
+            @include border-radius(50%);
+            &::before{
+                color: $white;
+                font-size: 40px;
+            }
+        }
+    }
+    &__content{
+        & h3{
+            font-size: 30px;
+            margin-bottom: 11px;
+        }
+        & p{
+            margin-bottom: 0;
+        }
+    }
+}

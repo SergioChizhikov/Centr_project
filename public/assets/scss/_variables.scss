@@ -1,0 +1,40 @@
+// Font Family
+$rubik: 'Rubik', sans-serif;
+$coga: 'Cormorant Garamond', serif;
+$cour: 'Courgette', cursive;
+
+// Colors ---------------
+$white: #ffffff;
+$white-2: #aabcd8;
+$black: #00235a;
+$black-2: #082e68;
+$footer-bg: #151616;
+$footer-bottom-bg: #1c1c1c;
+$grey:#fafaf8;
+$grey-2:#f1f9ff;
+$grey-3:#f6f6f6;
+$green: #005046; 
+$green-2: #056c5f; 
+$pink: #f8a683; 
+$body-text-color: #848b8a;
+$border:#476088;
+$border-2:#e4e2df;
+$border-3:#dfe3e2;
+
+// Heading Color
+$heading-color: #005046;
+
+// Soft color
+$black-soft:#848b8a;
+$black-soft-dark: #879292;
+$pink-soft: #fbf7f3;
+$pink-soft-2: #f6f1eb;
+$pink-soft-3: #faf4ee;
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$xs:'(max-width: 575px)';
+

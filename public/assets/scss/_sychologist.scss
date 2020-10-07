@@ -1,0 +1,56 @@
+/*----------------------------------------*/
+/*  07. SYCHOLOGIST CSS START
+/*----------------------------------------*/
+
+.sychologist{
+    &__area{ 
+        @include background();
+    }
+
+    &__person{
+        margin-top: -65px;
+        &-2{
+            margin-top: 0;
+        }
+    }
+    &__content{
+        & h1{
+            font-size: 50px;
+            margin-bottom: 17px;
+        }
+        & h3{
+            font-size: 27px;
+            margin-bottom: 22px;
+        }
+        & p{
+            margin-bottom: 45px;
+        }
+    }
+    &__signature{
+        & .signature-img{}
+    }
+    &__call{
+        &:hover{
+            & span{
+                background: $pink;
+            }
+        }
+        & span{
+            height: 65px;
+            width: 65px;
+            line-height: 65px;
+            text-align: center;
+            display: inline-block;
+            background: $green-2;
+            @include border-radius(3px);
+            &::before{
+                font-size: 30px;
+                color: $white;
+            }
+        }
+        & h3{
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+    }
+}

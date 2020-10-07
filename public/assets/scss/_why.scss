@@ -1,0 +1,99 @@
+/*----------------------------------------*/
+/*  16. why CSS START
+/*----------------------------------------*/
+
+.why{
+    &__area{}
+    &__wrapper{
+        & > p{
+            padding-right: 120px;
+            margin-bottom: 45px;
+        }
+    }
+    &__list{
+        & ul{
+            & li{
+                display: block;
+                padding-bottom: 25px;
+                margin-bottom: 25px;
+                padding-left: 32px;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    content: '\f00c';
+                    font-family: "Font Awesome 5 Pro";
+                    left: 0;
+                    top: 5px;
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                    line-height: 20px;
+                    background-color: $pink;
+                    color: $white;
+                    font-size: 14px;
+                    @include border-radius(50%);
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    left: 32px;
+                    bottom: 0;
+                    width: 100px;
+                    height: 1px;
+                    background-color: #e0e4e4;
+                }
+                & h3{
+                    position: relative;
+                    margin-bottom: 0;
+                    
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &__item{
+        &:hover{
+            & .why__icon{
+                & span{
+                    background-color: $green-2;
+                }
+            }
+        }
+    }
+    &__icon{
+        & span{
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            background-color: $pink;
+            @include border-radius(50%);
+            &::before{
+                font-size: 40px;
+                color: $white;
+            }
+        }
+    }
+    &__text{
+        & h3{
+            margin-bottom: 10px;
+        }
+        & p{
+            margin-bottom: 0;
+        }
+    }
+    &__bg{
+        top: 0;
+        right: 0;
+        width: 49%;
+        height: 100%;
+        @include background();
+    }
+}

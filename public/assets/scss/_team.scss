@@ -1,0 +1,251 @@
+/*----------------------------------------*/
+/*  15. TEAM CSS START
+/*----------------------------------------*/
+
+.team{
+    &__area{}
+    &__item{
+        &:hover{
+            & .team__thumb{
+                & img{
+                    @include transform(scale(1.1));
+                }
+            }
+            & .team__social{
+                visibility: visible;
+                opacity: 1;
+                right: 0;
+            }
+            & .team__content{
+                background-color: $green-2;
+                border-color: $green-2;
+                & .team__name{
+                    & h3{
+                        color: $white;
+                    }
+                    & span{
+                        color: $white;
+                    }
+                }
+                & .team__info{
+                    & p{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    &__social{
+        bottom: 0;
+        right: -60px;
+        padding: 20px 30px;
+        visibility: hidden;
+        opacity: 0;
+        & ul{
+            & li{
+                & a{
+                    background-color: $white;
+                    @include box-shadow(0px 0px 20px 0px rgba(2, 44, 125, 0.07));
+                    &:hover{
+                        background-color: $green-2;
+                        color: $white;
+                    }
+                }
+            }
+        }
+        &-2{
+            & ul{
+                & li{
+                    & a{
+                        background: $white;
+                        border: 1px solid $border-3;
+                        &:hover{
+                            background-color: $pink;
+                            color: $green-2;
+                            border-color: $pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__content{
+        padding: 25px 30px;
+        padding-bottom: 23px;
+        border: 1px solid #e0e4e4;
+        border-top: none;
+    }
+    &__name{
+        border-bottom: 1px solid #eaecec;
+        margin-bottom: 15px;
+        & span{
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
+    &__info{
+        & p{
+            margin-bottom: 7px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__menu{
+        & button{
+            background: transparent;
+            font-size: 18px;
+            text-transform: capitalize;
+            margin-right: 38px;
+            margin-bottom: 25px;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: -6px;
+                width: 100%;
+                height: 2px;
+                background: $green-2;
+                visibility: hidden;
+                opacity: 0;
+                @include transition(.2s);
+            }
+            &:hover{
+                color: $green-2;
+                &::before{
+                    bottom: 2px;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+            &.active{
+                color: $green-2;
+                &::before{
+                    bottom: 2px;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &__sidebar{}
+    &__member-list{}
+    &__details-wrapper{}
+    &__details-item{}
+    &__details-title{
+        & h2{
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e0e4e4;
+            margin-bottom: 0;
+            position: relative;
+            font-size: 30px;
+            &::before{
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: -2px;
+                width: 80px;
+                height: 3px;
+                background-color: $pink;
+            }
+        }
+    }
+    &__experience{}
+    &__experience-item{
+        & h2{
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        & .team__experience-meta{
+            & span{
+                position: relative;
+                display: inline-block;
+                padding-right: 12px;
+                margin-right: 1px;
+                &::before{
+                    position: absolute;
+                    content: '';
+                    right: 0;
+                    top: 50%;
+                    @include transform(translateY(-50%));
+                    width: 6px;
+                    height: 1px;
+                    background: $body-text-color;
+                }
+                &:last-child::before{
+                  display: none;
+                }
+            }
+        }
+        & p{
+
+        }
+    }
+    &__experience-area-item{
+        padding: 30px 25px;
+        border: 1px solid #e0e4e4;
+        & span{
+            &::before{
+                color: $green-2;
+                font-size: 50px;
+            }
+        }
+        & h3{
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 0;
+        }
+        &:hover{
+            border-color: $green-2;
+            background-color: $green-2;
+            & span{
+                &::before{
+                    color: $white;
+                }
+            }
+            & h3{
+                color: $white;
+            }
+        }
+    }
+    &__achivement{
+       & p{
+           margin-bottom: 23px;
+       }
+    }
+    &__achivement-thumb{
+        & img{
+            width: inherit !important;
+        }
+    }
+    &__contact{
+        & p{
+            margin-bottom: 24px;
+        }
+        & input,
+        & textarea{
+            height: 60px;
+            width: 100%;
+            padding: 20px;
+            font-size: 16px;
+            border: 1px solid #e0e4e4;
+            @include border-radius(3px);
+            margin-bottom: 30px;
+            color: $green-2;
+            &::placeholder{
+                color: #999999;
+            }
+            &:focus{
+                border-color: $green-2;
+            }
+        }
+        & textarea{
+            height: 200px;
+            resize: none;
+        }
+    }
+}

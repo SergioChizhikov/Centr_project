@@ -17,7 +17,7 @@ const Main = () => {
 				<div className='slider-active slider-active-2'>
 					<div
 						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						dataBackground={slider1}
+						data-background={slider1}
 					>
 						<div className='container'>
 							<div className='row align-items-center'>
@@ -44,7 +44,7 @@ const Main = () => {
 					</div>
 					<div
 						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						data-background='assets/img/slider/02/slider-2.jpg'
+						data-background={slider1}
 					>
 						<div className='container'>
 							<div className='row align-items-center'>
@@ -71,7 +71,7 @@ const Main = () => {
 					</div>
 					<div
 						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						data-background='assets/img/slider/02/slider-3.jpg'
+						data-background={slider1}
 					>
 						<div className='container'>
 							<div className='row align-items-center'>
