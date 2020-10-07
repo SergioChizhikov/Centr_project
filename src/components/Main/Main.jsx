@@ -2,6 +2,7 @@ import React from "react";
 import awardlist from "../assets/img/award/list/award-list-1.png";
 import awardlist2 from "../assets/img/award/list/award-list-2.png";
 import awardlist3 from "../assets/img/award/list/award-list-3.png";
+import appointment from "../assets/img/appointment/appointment-mission.jpg";
 
 const Main = () => {
 	return (
@@ -22,17 +23,17 @@ const Main = () => {
 								<div className='col-xl-9'>
 									<div className='slider-content slider-content-2'>
 										<span data-animation='fadeInUp' data-delay='.2s'>
-											Every depression solution
+										Не существует универсального решения проблемы.
 										</span>
 										<h2 data-animation='fadeInUp' data-delay='.4s'>
-											Best Psychologist Makes Excellent{" "}
+										Консультация психолога{" "}
 										</h2>
 										<p data-animation='fadeInUp' data-delay='.6s'>
-											Mental illness is not contagious you won’t catch it by being kind
+										по Skype, WhatsApp, Telegram, Zoom — это удобно
 										</p>
 										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
 											<a href='appointment.html' className='s-btn s-btn__square'>
-												make appointment
+											Получите надежную точку опоры.
 											</a>
 										</div>
 									</div>
@@ -129,11 +130,9 @@ const Main = () => {
 								<div className='appointment__award'>
 									<div className='section__title award__title mb-40'>
 										<div className='section__icon mb-10'>
-											<span className='section__sub-title section__sub-title-2'>
-												International Award
-											</span>
+											<span className='section__sub-title section__sub-title-2'>Сертификат</span>
 										</div>
-										<h1 className='mb-100'>The Best Achievements in Recognition of Our Work</h1>
+										<h1 className='mb-100'>Обучение</h1>
 									</div>
 
 									<div className='appointment__award-list'>
@@ -142,11 +141,8 @@ const Main = () => {
 												<img src={awardlist} alt='award-1'></img>
 											</div>
 											<div className='award-text'>
-												<h3>National Award (2005)</h3>
-												<span>
-													Pulvinar non morbi dictum apod sociosqu mattis turp laoreet honcus
-													className clum eleifend
-												</span>
+												<h3>Диплом</h3>
+												<span>Обучение в</span>
 											</div>
 										</div>
 										<div className='single-award d-flex mb-50'>
@@ -154,11 +150,8 @@ const Main = () => {
 												<img src={awardlist2} alt='award-1'></img>
 											</div>
 											<div className='award-text'>
-												<h3>National Award (2007)</h3>
-												<span>
-													Pulvinar non morbi dictum apod sociosqu mattis turp laoreet honcus
-													className clum eleifend
-												</span>
+												<h3>Переквалификация</h3>
+												<span>Получен в 2020 году.</span>
 											</div>
 										</div>
 										<div className='single-award d-flex mb-50'>
@@ -166,11 +159,8 @@ const Main = () => {
 												<img src={awardlist3} alt='award-1'></img>
 											</div>
 											<div className='award-text'>
-												<h3>National Award (2009)</h3>
-												<span>
-													Pulvinar non morbi dictum apod sociosqu mattis turp laoreet honcus
-													className clum eleifend
-												</span>
+												<h3>Сертификат</h3>
+												<span>Получен в</span>
 											</div>
 										</div>
 									</div>
@@ -180,7 +170,7 @@ const Main = () => {
 								<div className='appointment__mission'>
 									<div className='appointment__mission-thumb p-relative w-img'>
 										<img
-											src='assets/img/appointment/appointment-mission.jpg'
+											src={appointment}
 											alt='appointment-mission'
 										></img>
 										<div className='play-icon p-absolute'>
@@ -190,18 +180,15 @@ const Main = () => {
 										</div>
 									</div>
 									<div className='appointment__mission-text'>
-										<h3>Our Mission:</h3>
+										<h3>Мы приносим гармонию:</h3>
 										<p>
-											Netuse praesent varius hac habitasse sollicitudin turpis dolor malesua massa
-											quisque non dui pulvinar fermentum vel eleifend tempus temp Interdum ligula
-											fames porta quis penatibus cursus quis est integer do mollis facilisi mus
-											hendrerit primis.
+											Мы, в первую очередь, команда профессиональных психологов, за плечами которых
+											многолетний успешный опыт работы с самыми разными проблемными вопросами. В
+											центре проводятся тренинги личностного роста, программы для детей и
+											подростков, проводятся консультации психологов (психологическая помощь
+											взрослым, детям, подросткам и семьям), а также онлайн консультации психологов.
 										</p>
-										<p>
-											Pulvinar non morbi dictum pod sociosqu mattis turpis laoreet rhoncus className
-											eleifend suscipit sempe volutpat semper lobortis primis pharetra posuere
-											emarat cum ben ritual vehicula.
-										</p>
+										<p>Всегда можете записаться на бесплатную консультацию.</p>
 									</div>
 								</div>
 							</div>
