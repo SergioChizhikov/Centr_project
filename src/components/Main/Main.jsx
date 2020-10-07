@@ -17,24 +17,24 @@ const Main = () => {
 				<div className='slider-active slider-active-2'>
 					<div
 						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						data-background='assets/img/slider/02/slider-1.jpg'
+						dataBackground={slider1}
 					>
 						<div className='container'>
 							<div className='row align-items-center'>
 								<div className='col-xl-9'>
-									<div className={slider1}>
+									<div className='slider-content slider-content-2'>
 										<span data-animation='fadeInUp' data-delay='.2s'>
-										Не существует универсального решения проблемы.
+											Не существует универсального решения проблемы.
 										</span>
 										<h2 data-animation='fadeInUp' data-delay='.4s'>
-										Консультация психолога{" "}
+											Консультация психолога{" "}
 										</h2>
 										<p data-animation='fadeInUp' data-delay='.6s'>
-										по Skype, WhatsApp, Telegram, Zoom — это удобно
+											по Skype, WhatsApp, Telegram, Zoom — это удобно
 										</p>
 										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
 											<a href='appointment.html' className='s-btn s-btn__square'>
-											Получите надежную точку опоры.
+												Получите надежную точку опоры.
 											</a>
 										</div>
 									</div>
@@ -170,10 +170,7 @@ const Main = () => {
 							<div className='col-xl-4 col-lg-6'>
 								<div className='appointment__mission'>
 									<div className='appointment__mission-thumb p-relative w-img'>
-										<img
-											src={appointment}
-											alt='appointment-mission'
-										></img>
+										<img src={appointment} alt='appointment-mission'></img>
 										<div className='play-icon p-absolute'>
 											<a href='#' data-fancybox className='play-btn'>
 												<i className='fas fa-play'></i>

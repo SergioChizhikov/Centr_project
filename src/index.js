@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+//import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './components/assets/css/preloader.css';
 import './components/assets/css/slick.css';
 import './components/assets/css/metisMenu.css';
-//import './components/assets/css/owl.carousel.min.css';
+import './components/assets/css/owl.carousel.min.css';
 import './components/assets/css/animate.min.css';
 import './components/assets/css/jquery.fancybox.min.css';
 import './components/assets/css/all.min.css';
-//import './components/assets/css/flaticon.css';
+import './components/assets/css/flaticon.css';
 import './components/assets/css/nice-select.css';
 import './components/assets/css/default.css';
 import './components/assets/css/style.css';
