@@ -3,6 +3,7 @@ import awardlist from "../assets/img/award/list/award-list-1.png";
 import awardlist2 from "../assets/img/award/list/award-list-2.png";
 import awardlist3 from "../assets/img/award/list/award-list-3.png";
 import appointment from "../assets/img/appointment/appointment-mission.jpg";
+import slider1 from "../assets/img/slider/02/slider-1.jpg";
 
 const Main = () => {
 	return (
@@ -21,7 +22,7 @@ const Main = () => {
 						<div className='container'>
 							<div className='row align-items-center'>
 								<div className='col-xl-9'>
-									<div className='slider-content slider-content-2'>
+									<div className={slider1}>
 										<span data-animation='fadeInUp' data-delay='.2s'>
 										Не существует универсального решения проблемы.
 										</span>
