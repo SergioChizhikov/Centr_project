@@ -67,7 +67,7 @@ const Header = () => {
                         <div className='row'>
                             <div className='col-xl-2 col-lg-3 col-md-4 col-sm-6 col-8'>
                                 <div className='logo-2'>
-                                    <NavLink to='index'>< img src={logo}></ img></NavLink>
+                                    <NavLink exact to=''>< img src={logo}></ img></NavLink>
                                 </div>
                             </div>
                             <div className='col-xl-10 col-lg-9 col-md-8 col-sm-6 col-4'>
@@ -77,7 +77,7 @@ const Header = () => {
                                         <nav>
                                             <ul>
                                                 <li>
-                                                    <NavLink to='index'>Главная</NavLink>
+                                                    <NavLink exact to=''>Главная</NavLink>
 
                                                 </li>
                                                 <li>
@@ -89,7 +89,7 @@ const Header = () => {
 
                                                 </li>
                                                 <li>
-                                                    <a href='blog.html'>Статьи</a>
+                                                    <NavLink to='blog'>Статьи</NavLink>
                                                     {/*<ul className='submenu'>*/}
                                                     {/*    <li>*/}
                                                     {/*        <a href='blog.html'>Блог</a>*/}
@@ -108,7 +108,7 @@ const Header = () => {
                                                     {/*</ul>*/}
                                                 </li>
                                                 <li>
-                                                    <NavLink to ='contact'>Контакты</NavLink>
+                                                    <NavLink to='contact'>Контакты</NavLink>
                                                 </li>
                                             </ul>
                                         </nav>
@@ -119,7 +119,7 @@ const Header = () => {
                                         <span></span>
                                     </div>
                                     <div className='header__btn d-none d-xl-block'>
-                                        <NavLink to ='contact' className='s-btn s-btn__square'>
+                                        <NavLink to='contact' className='s-btn s-btn__square'>
                                             Записаться
                                         </NavLink>
                                     </div>
@@ -140,41 +140,15 @@ const Header = () => {
                         </div>
                         <ul id='mobile-menu-active'>
                             <li className='has-dropdown'>
-                                <a href='index.html'>Главная</a>
-                                <ul className='submenu'>
-                                    <li>
-                                        <a href='index.html'>home style one</a>
-                                    </li>
-                                    <li>
-                                        <a href='index-2.html'>home style two</a>
-                                    </li>
-                                    <li>
-                                        <a href='index-3.html'>home style three</a>
-                                    </li>
-                                </ul>
+                                <NavLink exact to=''>Главная</NavLink>
                             </li>
                             <li className='has-dropdown'>
-                                <a href='about-us.html'>Кто мы</a>
-                                <ul className='submenu'>
-                                    <li>
-                                        <a href='about-us.html'>about us</a>
-                                    </li>
-                                    <li>
-                                        <a href='about-me.html'>about me</a>
-                                    </li>
-                                </ul>
+                                <NavLink to='about'>Кто мы</NavLink>
+
                             </li>
                             <li className='has-dropdown'>
-                                {" "}
-                                <a href='services.html'>Наши услуги</a>
-                                <ul className='submenu'>
-                                    <li>
-                                        <a href='services.html'>services</a>
-                                    </li>
-                                    <li>
-                                        <a href='services-details.html'>service details</a>
-                                    </li>
-                                </ul>
+                                <NavLink to='services'>Наши услуги</NavLink>
+
                             </li>
                             {/* <li className ="has-dropdown"><a href="case.html">cases</a>
                     <ul className ="submenu">
@@ -191,15 +165,10 @@ const Header = () => {
                     </ul>
                 </li> */}
                             <li className='has-dropdown'>
-                                <a href='blog.html'>Статьи</a>
-                                <ul className='submenu'>
-                                    <li>
-                                        <a href='blog.html'>Блог </a>
-                                    </li>
-                                </ul>
+                                <NavLink to='blog'>Статьи</NavLink>
                             </li>
                             <li>
-                                <a href='contact.html'>contact</a>
+                                <NavLink to='contact.html'>Контакты</NavLink>
                             </li>
                         </ul>
                     </nav>
@@ -207,11 +176,11 @@ const Header = () => {
             </section>
             <div className='body-overlay transition-3'></div>
 
-            <div className='scroll-up' id='scroll' style={{display: 'none'}}>
-                <a href='javascript:void(0);'>
-                    <i className='far fa-angle-up'></i>
-                </a>
-            </div>
+            {/*<div className='scroll-up' id='scroll' style={{display: 'none'}}>*/}
+            {/*    <a href='javascript:void(0);'>*/}
+            {/*        <i className='far fa-angle-up'></i>*/}
+            {/*    </a>*/}
+            {/*</div>*/}
         </header>
     );
 };
