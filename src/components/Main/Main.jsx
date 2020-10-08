@@ -17,7 +17,7 @@ const Main = () => {
 				<div className='slider-active slider-active-2'>
 					<div
 						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						data-background={slider1}
+						style={{backgroundImage: `url(${slider1})`}}
 					>
 						<div className='container'>
 							<div className='row align-items-center'>

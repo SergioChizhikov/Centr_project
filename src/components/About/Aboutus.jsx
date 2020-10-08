@@ -5,7 +5,7 @@ import about_2 from ".././assets/img/about/about-2.jpg"
 const Aboutus = () => {
     return (
         <div>
-            <section className ="page__title p-relative pt-200 pb-200" data-background={page_title}>
+            <section className ="page__title p-relative pt-200 pb-200" style={{backgroundImage: `url(${page_title})`}}>
                 <div className ="container">
                     <div className ="row">
                         <div className ="col-xl-12 col-lg-12 col-md-12">
@@ -21,7 +21,7 @@ const Aboutus = () => {
             <section className ="about__area-2 pt-120 pb-120 box-105 p-relative">
                 <div className ="container-fluid">
                     <div className ="about__inner about__inner-3 p-relative">
-                        <div className ="about__bg-img p-absolute" data-background={about_2}></div>
+                        <div className ="about__bg-img p-absolute" style={{backgroundImage: `url(${about_2})`}}></div>
                         <div className ="row">
                             <div className ="col-xl-6 offset-xl-6">
                                 <div className ="about__content-wrapper pt-20 pl-85">
