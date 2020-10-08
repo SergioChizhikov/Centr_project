@@ -51,17 +51,17 @@ const Main = () => {
 								<div className='col-xl-9'>
 									<div className='slider-content slider-content-2'>
 										<span data-animation='fadeInUp' data-delay='.2s'>
-											Every depression solution
+											Всегда есть решение!
 										</span>
 										<h2 data-animation='fadeInUp' data-delay='.4s'>
-											Best Psychologist Makes Excellent{" "}
+											Приезжайте на консультацию лично.
 										</h2>
 										<p data-animation='fadeInUp' data-delay='.6s'>
-											Mental illness is not contagious you won’t catch it by being kind
+											Вы можете записаться на удобное для вас время и дату.
 										</p>
 										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
 											<a href='appointment.html' className='s-btn s-btn__square'>
-												make appointment
+												Узнайте подробности
 											</a>
 										</div>
 									</div>

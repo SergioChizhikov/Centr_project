@@ -6,6 +6,7 @@ import Blog from './components/Blog/Blog';
 import Contact from "./components/Contact/Contact";
 import {Route, BrowserRouter} from "react-router-dom";
 import Aboutus from "./components/About/Aboutus";
+import Services from "./components/Services/Services";
 
 
 function App () {
@@ -33,6 +34,17 @@ return (
                     <Aboutus />
                 </div>
             }}/>
+            <Route path="/contact" render={()=>{
+                return <div>
+                    <Contact />
+                </div>
+            }}/>
+            <Route path="/services" render={()=>{
+                return <div>
+                    <Services />
+                </div>
+            }}/>
+
         <Footer />
 
             </BrowserRouter>
