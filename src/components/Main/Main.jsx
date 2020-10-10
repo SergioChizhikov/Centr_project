@@ -1,20 +1,25 @@
 import React from "react";
+
+
 import awardlist from "../assets/img/award/list/award-list-1.png";
 import awardlist2 from "../assets/img/award/list/award-list-2.png";
 import awardlist3 from "../assets/img/award/list/award-list-3.png";
 import appointment from "../assets/img/appointment/appointment-mission.jpg";
 import slider1 from "../assets/img/slider/02/slider-1.jpg";
+import {NavLink} from "react-router-dom";
 
 const Main = () => {
 	return (
 		<div>
+
+
 			<div className='slider-area p-relative'>
 				<div className='slider-arrow p-absolute bounce smooth-scroll'>
-					<a href='#appointment__area-2' className='slider-arrow-btn'>
+					<NavLink to='#appointment__area-2' className='slider-arrow-btn'>
 						<i className='fal fa-long-arrow-down'></i>
-					</a>
+					</NavLink>
 				</div>
-				<div className='slider-active slider-active-2'>
+				<div className='item slider-active slider-active-2'>
 					<div
 						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
 						style={{backgroundImage: `url(${slider1})`}}
@@ -33,69 +38,69 @@ const Main = () => {
 											по Skype, WhatsApp, Telegram, Zoom — это удобно
 										</p>
 										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
-											<a href='appointment.html' className='s-btn s-btn__square'>
+											<NavLink to ='contact' className='s-btn s-btn__square'>
 												Получите надежную точку опоры.
-											</a>
+											</NavLink>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div
-						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						data-background={slider1}
-					>
-						<div className='container'>
-							<div className='row align-items-center'>
-								<div className='col-xl-9'>
-									<div className='slider-content slider-content-2'>
-										<span data-animation='fadeInUp' data-delay='.2s'>
-											Всегда есть решение!
-										</span>
-										<h2 data-animation='fadeInUp' data-delay='.4s'>
-											Приезжайте на консультацию лично.
-										</h2>
-										<p data-animation='fadeInUp' data-delay='.6s'>
-											Вы можете записаться на удобное для вас время и дату.
-										</p>
-										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
-											<a href='appointment.html' className='s-btn s-btn__square'>
-												Узнайте подробности
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div
-						className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-						data-background={slider1}
-					>
-						<div className='container'>
-							<div className='row align-items-center'>
-								<div className='col-xl-9'>
-									<div className='slider-content slider-content-2'>
-										<span data-animation='fadeInUp' data-delay='.2s'>
-											Every depression solution
-										</span>
-										<h2 data-animation='fadeInUp' data-delay='.4s'>
-											Best Psychologist Makes Excellent{" "}
-										</h2>
-										<p data-animation='fadeInUp' data-delay='.6s'>
-											Mental illness is not contagious you won’t catch it by being kind
-										</p>
-										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
-											<a href='appointment.html' className='s-btn s-btn__square'>
-												make appointment
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					{/*<div*/}
+					{/*	className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'*/}
+					{/*	data-background={slider1}*/}
+					{/*>*/}
+					{/*	<div className='container'>*/}
+					{/*		<div className='row align-items-center'>*/}
+					{/*			<div className='col-xl-9'>*/}
+					{/*				<div className='slider-content slider-content-2'>*/}
+					{/*					<span data-animation='fadeInUp' data-delay='.2s'>*/}
+					{/*						Всегда есть решение!*/}
+					{/*					</span>*/}
+					{/*					<h2 data-animation='fadeInUp' data-delay='.4s'>*/}
+					{/*						Приезжайте на консультацию лично.*/}
+					{/*					</h2>*/}
+					{/*					<p data-animation='fadeInUp' data-delay='.6s'>*/}
+					{/*						Вы можете записаться на удобное для вас время и дату.*/}
+					{/*					</p>*/}
+					{/*					<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>*/}
+					{/*						<NavLink to ='contact' className='s-btn s-btn__square'>*/}
+					{/*							Узнайте подробности*/}
+					{/*						</NavLink>*/}
+					{/*					</div>*/}
+					{/*				</div>*/}
+					{/*			</div>*/}
+					{/*		</div>*/}
+					{/*	</div>*/}
+					{/*</div>*/}
+					{/*<div*/}
+					{/*	className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'*/}
+					{/*	data-background={slider1}*/}
+					{/*>*/}
+					{/*	<div className='container'>*/}
+					{/*		<div className='row align-items-center'>*/}
+					{/*			<div className='col-xl-9'>*/}
+					{/*				<div className='slider-content slider-content-2'>*/}
+					{/*					<span data-animation='fadeInUp' data-delay='.2s'>*/}
+					{/*						Приходим на помощь*/}
+					{/*					</span>*/}
+					{/*					<h2 data-animation='fadeInUp' data-delay='.4s'>*/}
+					{/*						Best Psychologist Makes Excellent{" "}*/}
+					{/*					</h2>*/}
+					{/*					<p data-animation='fadeInUp' data-delay='.6s'>*/}
+					{/*						Персональный психолог*/}
+					{/*					</p>*/}
+					{/*					<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>*/}
+					{/*						<NavLink to ='contact' className='s-btn s-btn__square'>*/}
+					{/*							Обратиться к нам*/}
+					{/*						</NavLink>*/}
+					{/*					</div>*/}
+					{/*				</div>*/}
+					{/*			</div>*/}
+					{/*		</div>*/}
+					{/*	</div>*/}
+					{/*</div>*/}
 				</div>
 			</div>
 
@@ -112,7 +117,7 @@ const Main = () => {
 									<div className='appointment__form-inner'>
 										<form action='#'>
 											<input type='text' placeholder='Ваше имя'></input>
-											<input type='email' placeholder='E-mail'></input>
+											<input type='phone' placeholder='E-mail'></input>
 											<textarea
 												name='app-txt'
 												cols='30'
@@ -121,7 +126,7 @@ const Main = () => {
 											></textarea>
 
 											<button className='sub-btn' type='submit'>
-												Записаться
+												Отправить сообщение
 											</button>
 										</form>
 									</div>

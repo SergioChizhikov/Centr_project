@@ -1,0 +1,23 @@
+import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.min.css';
+import 'owl.carousel';
+import slider1 from "../assets/img/slider/02/slider-1.jpg";
+
+function Carousel_1 (){
+
+    return (
+        <OwlCarousel
+            className="owl-theme"
+            loop margin={3} nav
+        >
+            <div className="item" style={{backgroundImage: `url(${slider1})`}}></div>
+            <div className="item" style={{backgroundImage: `url(${slider1})`}}></div>
+            <div className="item" style={{backgroundImage: `url(${slider1})`}}></div>
+        </OwlCarousel>
+    );
+
+
+};
+//export default Carousel_1;

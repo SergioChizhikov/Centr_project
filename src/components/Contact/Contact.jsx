@@ -3,7 +3,8 @@ import React from "react";
 const Contact = () => {
     return (
         <div>
-<main><section className ="contact__area pt-120 pb-120">
+<main>
+    <section className ="contact__area pt-120 pb-120">
     <div className ="container">
         <div className ="row">
             <div className ="col-xl-5 col-lg-5">
