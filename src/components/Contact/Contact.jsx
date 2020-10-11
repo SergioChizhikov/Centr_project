@@ -13,9 +13,9 @@ const Contact = () => {
                         <div className ="section__icon mb-10">
                             <span className ="section__sub-title section__sub-title-2 section__sub-title-3">Contact info</span>
                         </div>
-                        <h1 >Have Any Questins Or Emergency Problem Contact With Us</h1>
+                        <h1 >Не стесняйтесь обратится с вопросом или проблемой.</h1>
                     </div>
-                    <p>Pulvinar senectus morbi quisque nunc to towa faucibus netus etiam mone lestie nisi dis malesuada maecenas ora pretium ornare pharetra vestibulum mattis fringilla interdum cursus curae nisi pede laoreet placerat </p>
+                    <p>Мы всегда можем быть полезны и ответим на все ваши вопросы. Консультация.</p>
                 </div>
             </div>
             <div className ="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
@@ -23,35 +23,35 @@ const Contact = () => {
                     <form id="contact-form" action="assets/mail.php" method="POST">
                         <div className ="row">
                             <div className ="col-xl-6">
-                                <input name="name" className ="contact__input contact__input-3 contact__input-4" type="text" placeholder="Your Name"></input>
+                                <input name="name" className ="contact__input contact__input-3 contact__input-4" type="text" placeholder="Как к вам обращаться?"></input>
                             </div>
-                            <div className ="col-xl-6">
-                                <input name="email" className ="contact__input contact__input-3 contact__input-4" type="email" placeholder="E-mail Address"></input>
-                            </div>
+                            {/*<div className ="col-xl-6">*/}
+                            {/*    <input name="email" className ="contact__input contact__input-3 contact__input-4" type="email" placeholder="E-mail"></input>*/}
+                            {/*</div>*/}
                         </div>
                         <div className ="row">
                             <div className ="col-xl-6">
-                                <input name="subject" className ="contact__input contact__input-3 contact__input-4" type="text" placeholder="Phone Number"></input>
+                                <input name="subject" className ="contact__input contact__input-3 contact__input-4" type="text" placeholder="Телефон для связи:"></input>
                             </div>
-                            <div className ="col-xl-6">
-                                <select className ="contact__input contact__input-3 contact__input-4">
-                                    <option value="">Choose Problem</option>
-                                    <option value="">Option 1</option>
-                                    <option value="">Option 2</option>
-                                    <option value="">Option 3</option>
-                                    <option value="">Option 4</option>
-                                    <option value="">Option 5</option>
-                                </select>
+                            {/*<div className ="col-xl-6">*/}
+                            {/*    <select className ="contact__input contact__input-3 contact__input-4">*/}
+                            {/*        <option value="">Choose Problem</option>*/}
+                            {/*        <option value="">Option 1</option>*/}
+                            {/*        <option value="">Option 2</option>*/}
+                            {/*        <option value="">Option 3</option>*/}
+                            {/*        <option value="">Option 4</option>*/}
+                            {/*        <option value="">Option 5</option>*/}
+                            {/*    </select>*/}
+                            {/*</div>*/}
+                        </div>
+                        <div className ="row">
+                            <div className ="col-xl-12">
+                                <textarea name="message" className ="contact__input contact__input-3 contact__input-4 txt-area " cols="30" rows="10" placeholder="Ваш комментарий:"></textarea>
                             </div>
                         </div>
                         <div className ="row">
                             <div className ="col-xl-12">
-                                <textarea name="message" className ="contact__input contact__input-3 contact__input-4 txt-area " cols="30" rows="10" placeholder="Write Message"></textarea>
-                            </div>
-                        </div>
-                        <div className ="row">
-                            <div className ="col-xl-12">
-                                <button className ="s-btn s-btn__square" type="submit">submit message</button>
+                                <button className ="s-btn s-btn__square" type="submit">Отправить нам сообщение.</button>
                             </div>
                         </div>
                     </form>
@@ -72,7 +72,7 @@ const Contact = () => {
                                 <span className ="icon flaticon-house"></span>
                             </div>
                             <div className ="contact__info-content">
-                                <h3>Our Address</h3>
+                                <h3>Наш адрес</h3>
                                 <span>24 Broadcast Drive Charlotte</span>
                                 <span> NC 28202, USA</span>
                             </div>

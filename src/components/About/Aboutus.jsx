@@ -1,7 +1,8 @@
 import React from "react";
 import page_title from ".././assets/img/page-title/page-title.jpg";
-import about_2 from ".././assets/img/about/about-2.jpg"
-;
+import about_2 from ".././assets/img/about/about-2.jpg";
+
+
 const Aboutus = () => {
     return (
         <div>
