@@ -45,7 +45,7 @@ class Contact extends React.Component {
                                 </div>
                                 <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
                                     <div className="contact__form">
-                                        <form id="contact-form" onSubmit={this.sendMail}>
+                                        <form onSubmit={this.sendMail}>
                                             <div className="row">
                                                 <div className="col-xl-6">
                                                     <input name="name"
