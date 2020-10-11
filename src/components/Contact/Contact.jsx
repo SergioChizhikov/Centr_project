@@ -108,8 +108,8 @@ class Contact extends React.Component {
                                             </div>
                                             <div className="contact__info-content">
                                                 <h3>Наш адрес</h3>
-                                                <span>24 Broadcast Drive Charlotte</span>
-                                                <span> NC 28202, USA</span>
+                                                <span>Палаты Аверкия</span>
+                                                <span> Входить от Москва реки</span>
                                             </div>
                                         </div>
                                     </div>
@@ -120,9 +120,9 @@ class Contact extends React.Component {
                                                 <span className="icon flaticon-support-1"></span>
                                             </div>
                                             <div className="contact__info-content">
-                                                <h3>Phone Number</h3>
-                                                <span>(+06) 325 - 635 - 3265 </span>
-                                                <span>(+02) 653 - 352 - 6524</span>
+                                                <h3>Можете связаться по телефонам:</h3>
+                                                <span>(+7) 495 - 926 - 3265 </span>
+                                                <span>(+7) 499 - 223 - 6524</span>
                                             </div>
                                         </div>
                                     </div>
@@ -133,9 +133,9 @@ class Contact extends React.Component {
                                                 <span className="icon flaticon-email"></span>
                                             </div>
                                             <div className="contact__info-content">
-                                                <h3>Email Support</h3>
-                                                <span>patient@basicme.com</span>
-                                                <span>info@basicme.com</span>
+                                                <h3>Email для связи</h3>
+                                                <span>test@btest.com</span>
+                                                <span>info@btest.com</span>
                                             </div>
                                         </div>
                                     </div>
@@ -149,8 +149,7 @@ class Contact extends React.Component {
                             <div className="row no-gutters">
                                 <div className="col-xl-12">
                                     <div className="contact__map">
-                                        <iframe
-                                            src="https://maps.google.com/maps?hl=en&amp;q=Dhaka+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3777.2491116708484!2d37.605397210157065!3d55.74172390882723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1602446417950!5m2!1sru!2sru"></iframe>
                                     </div>
                                 </div>
                             </div>
