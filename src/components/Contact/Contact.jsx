@@ -11,7 +11,10 @@ class Contact extends React.Component {
     handleChange(event) {
         this.setState({value: event.target.value});
             }
-
+    // handleSubmit(event) {
+    //     alert('Спасибо. Мы с вами свяжемся. ' + this.state.value);
+    //     event.preventDefault();
+    // }
 
     sendMail(event){
         let formData = new FormData();
@@ -36,7 +39,7 @@ class Contact extends React.Component {
                                         <div className="section__title mb-25">
                                             <div className="section__icon mb-10">
                                                 <span
-                                                    className="section__sub-title section__sub-title-2 section__sub-title-3">Contact info</span>
+                                                    className="section__sub-title section__sub-title-2 section__sub-title-3">Мы на связи</span>
                                             </div>
                                             <h1>Не стесняйтесь обратится с вопросом или проблемой.</h1>
                                         </div>

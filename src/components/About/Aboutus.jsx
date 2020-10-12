@@ -12,7 +12,7 @@ const Aboutus = () => {
                         <div className ="col-xl-12 col-lg-12 col-md-12">
                             <div className ="page__title-inner text-center">
 
-                                <h1>Welcome to </h1>
+                                <h1>Добро пожаловать</h1>
                             </div>
                         </div>
                     </div>
@@ -28,16 +28,16 @@ const Aboutus = () => {
                                 <div className ="about__content-wrapper pt-20 pl-85">
                                     <div className ="section__title mb-30">
                                         <div className ="section__icon mb-10">
-                                            <span className ="section__sub-title section__sub-title-2">welcome to sycho</span>
+                                            <span className ="section__sub-title section__sub-title-2">Добро пожаловать в Центр здоровых отношений.</span>
                                         </div>
-                                        <h1 className ="mb-100">Patients are Happy, Cause Proper Mental Cure Support</h1>
+                                        <h1 className ="mb-100">Наши пациенты всегда счастливы.</h1>
                                     </div>
 
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole there eiusmod tempor incididub labore  dolore magna aliqua denim ads minim veniam, quis nostrud exerctation ullamco nisi above murli aliquip commodo imperdet</p>
 
                                     <div className ="about__info-2 d-sm-flex mb-60">
                                         <div className ="about__info-experience white-bg mr-40">
-                                            <h1>20 Years Professional Experience</h1>
+                                            <h1>20 лет практики</h1>
                                         </div>
                                         <p>Lobortis facilisis potenti dictumst auctor at semper amet dis elit, neque nulla lectus. Nascetur habitasse dignissim className  ac vehicula ultricies conubia suspendisse aenean suscipit nulla verra volutpat velit orci montes maece nas lorem porttitor tortor dise montes fames nascetur auctor dui rhoncus phasellus id sagittis a praesent dui rhoncus porttitor nullam commodo ultricess</p>
                                     </div>
@@ -45,8 +45,8 @@ const Aboutus = () => {
                                         <div className ="about-author mr-30 mb-30">
                                             <img src="assets/img/about/author.png" alt=""></img>
                                                 <div className ="ab-author">
-                                                    <h3>Dalian Machen</h3>
-                                                    <span>CEO, Sycho</span>
+                                                    <h3>Чекалина Елена</h3>
+                                                    <span>психолог</span>
                                                 </div>
                                         </div>
                                         <div className ="about-btn mr-40 mb-30">
@@ -62,18 +62,18 @@ const Aboutus = () => {
 
             <section className ="testimonial__area pt-120 pb-120 grey-bg-3 box-105">
                 <div className ="testimonial__inner p-relative">
-                    <div className ="testimonial__img testimonial__img-2 border-radius-8 p-absolute fix" data-background="assets/img/testimonial/testimonial-img.jpg">
-                        <div className ="testimonial__video p-absolute fix">
-                            <div className ="testimonial__shape p-absolute">
-                                <img src="assets/img/testimonial/shape-1.png" alt=""></img>
-                            </div>
-                            <div className ="testimonial__shape testimonial__shape-2 p-absolute">
-                                <img src="assets/img/testimonial/shape-2.png" alt=""></img>
-                            </div>
-                            <h3>See Our Success Story</h3>
-                            <a href="https://youtu.be/yJg-Y5byMMw" data-fancybox="" className ="play-btn play-btn-sm play-btn-pink play-btn-pink-white"><i className ="far fa-play"></i></a>
-                        </div>
-                    </div>
+                    {/*<div className ="testimonial__img testimonial__img-2 border-radius-8 p-absolute fix" data-background="assets/img/testimonial/testimonial-img.jpg">*/}
+                    {/*    <div className ="testimonial__video p-absolute fix">*/}
+                    {/*        <div className ="testimonial__shape p-absolute">*/}
+                    {/*            <img src="assets/img/testimonial/shape-1.png" alt=""></img>*/}
+                    {/*        </div>*/}
+                    {/*        <div className ="testimonial__shape testimonial__shape-2 p-absolute">*/}
+                    {/*            <img src="assets/img/testimonial/shape-2.png" alt=""></img>*/}
+                    {/*        </div>*/}
+                    {/*        <h3>See Our Success Story</h3>*/}
+                    {/*        <a href="https://youtu.be/yJg-Y5byMMw" data-fancybox="" className ="play-btn play-btn-sm play-btn-pink play-btn-pink-white"><i className ="far fa-play"></i></a>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     <div className ="container">
                         <div className ="row">
