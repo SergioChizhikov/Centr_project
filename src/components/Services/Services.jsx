@@ -1,4 +1,6 @@
 import React from "react";
+import Carousel_1 from "../Carousel/Carousel_1";
+
 
 const Services = () => {
     return (
@@ -6,15 +8,14 @@ const Services = () => {
     <main>
 
         <section className="page__title p-relative pt-200 pb-200"
-                 data-background="assets/img/page-title/page-title-6.jpg">
+                 >
+            <Carousel_1 />
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12">
                         <div className="page__title-inner text-center">
-                            <div className="page__title-breadcrumb">
 
-                            </div>
-                            <h1>Our Case Studies</h1>
+                            <h1>Что мы предлагаем</h1>
                         </div>
                     </div>
                 </div>
@@ -26,10 +27,10 @@ const Services = () => {
                 <div className="row">
                     <div className="col-xl-8 offset-xl-2">
                         <div className="section__title mb-60 pl-50 pr-50 text-center">
-                            <h1>Professional Psychologist Team Ready to Serve you</h1>
+                            <h1>Команда профессиональных психологов на службе ваших интересов</h1>
                             <div className="section__icon mb-10">
                                 <span
-                                    className="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"> Expert member</span>
+                                    className="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4">Наши услуги</span>
                             </div>
                         </div>
                     </div>

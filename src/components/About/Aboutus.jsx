@@ -12,7 +12,7 @@ const Aboutus = () => {
                         <div className ="col-xl-12 col-lg-12 col-md-12">
                             <div className ="page__title-inner text-center">
 
-                                <h1>Добро пожаловать</h1>
+                                <h1>Добро пожаловать. Команда Центра Здоровых Отношений рада вас приветствовать.</h1>
                             </div>
                         </div>
                     </div>
