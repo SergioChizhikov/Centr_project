@@ -113,22 +113,25 @@ const Main = () => {
 						<div className='row'>
 							<div className='col-xl-4 col-lg-6'>
 								<div className='appointment__form-wrapper mr-65'>
-									<h1>Получить бесплатную консультацию</h1>
-									<div className='appointment__form-inner'>
-										<form action='#'>
-											<input type='text' placeholder='Ваше имя'></input>
-											<input type='phone' placeholder='E-mail'></input>
-											<textarea
-												name='app-txt'
-												cols='30'
-												rows='10'
-												placeholder='Напишите здесь сообщение'
-											></textarea>
+									<h1>Только лучшие психологи работают с вами.</h1>
+									<div className='appointment__form-inner'><h2>На нашем сайте Вы можете получить онлайн консультацию психолога, не выходя из дома.</h2><p>
+										Психолог поможет Вам разрешить наболевшие проблемы: в личных или семейных отношениях, разобраться с тревогой и депрессией, травматическим опытом, определиться с целью в жизни.
 
-											<button className='sub-btn' type='submit'>
-												Отправить сообщение
-											</button>
-										</form>
+										Бесплатная консультация психолога оказывается в порядке очереди бесплатных вопросов без гарантии ответа, режим платных вопросов позволяет получить ответ сразу же.</p>
+										{/*<form action='#'>*/}
+										{/*	<input type='text' placeholder='Ваше имя'></input>*/}
+										{/*	<input type='phone' placeholder='E-mail'></input>*/}
+										{/*	<textarea*/}
+										{/*		name='app-txt'*/}
+										{/*		cols='30'*/}
+										{/*		rows='10'*/}
+										{/*		placeholder='Напишите здесь сообщение'*/}
+										{/*	></textarea>*/}
+
+										{/*	<button className='sub-btn' type='submit'>*/}
+										{/*		Отправить сообщение*/}
+										{/*	</button>*/}
+										{/*</form>*/}
 									</div>
 								</div>
 							</div>

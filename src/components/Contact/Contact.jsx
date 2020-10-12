@@ -11,10 +11,7 @@ class Contact extends React.Component {
     handleChange(event) {
         this.setState({value: event.target.value});
             }
-    // handleSubmit(event) {
-    //     alert('Спасибо. Мы с вами свяжемся. ' + this.state.value);
-    //     event.preventDefault();
-    // }
+
 
     sendMail(event){
         let formData = new FormData();
@@ -63,7 +60,7 @@ class Contact extends React.Component {
                                                 <div className="col-xl-6">
                                                     <input name="subject"
                                                            className="contact__input contact__input-3 contact__input-4"
-                                                           type="text" placeholder="Телефон для связи:"></input>
+                                                           type="text" placeholder="Телефон для связи:" ></input>
                                                 </div>
                                                 {/*<div className ="col-xl-6">*/}
                                                 {/*    <select className ="contact__input contact__input-3 contact__input-4">*/}
@@ -92,8 +89,7 @@ class Contact extends React.Component {
                                                 </div>
                                             </div>
                                         </form>
-                                        <p className="ajax-response"></p>
-                                    </div>
+                                                                            </div>
                                 </div>
                             </div>
                         </div>
