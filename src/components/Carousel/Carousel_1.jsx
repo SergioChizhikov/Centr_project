@@ -11,13 +11,13 @@ function Carousel_1 (){
         <div className="slider-area p-relative">
         <OwlCarousel
             className="owl-theme"
-
+            loop
             margin={10}
             nav
-            item={1}
+            items="3"
             center
+            autoplay
         >
-            <div className="container">
             <div className="item">
                 <div >
                     <img src={slider1}      alt="" />
@@ -29,9 +29,9 @@ function Carousel_1 (){
             <div className="item"><div >
                 <img src={slider1}      alt="" />
             </div></div>
-            </div>
+
             </OwlCarousel>
-        </div>
+       </div>
             );
 
 

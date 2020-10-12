@@ -1,10 +1,8 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import blogBig from ".././assets/img/blog/blog-big-1.jpg";
-import blogVideo from ".././assets/img/blog/video/blog-video.jpg";
-import blogGallery_1 from ".././assets/img/blog/gallery/blog-gallary-1.jpg";
-import blogGallery_2 from ".././assets/img/blog/gallery/blog-gallary-2.jpg";
-import blogGallery_3 from ".././assets/img/blog/gallery/blog-gallary-3.jpg";
+import blogBig1 from ".././assets/img/blog/blog-big-1.jpg";
+import blogBig2 from ".././assets/img/blog/blog-big-2.jpg";
+import blogBig3 from ".././assets/img/blog/blog-big-3.jpg";
 
 
 
@@ -22,7 +20,7 @@ const Blog = () => {
                                 <article className="postbox mb-40">
                                     <div className="postbox__thumb w-img">
                                         <NavLink to="blog-details">
-                                            <img src={blogBig} alt="blog image"></img>
+                                            <img src={blogBig1} alt="blog image"></img>
                                         </NavLink>
                                     </div>
                                     <div className="postbox__content grey-bg">
@@ -47,7 +45,7 @@ const Blog = () => {
                                 <article className="postbox mb-40">
                                     <div className="postbox__thumb w-img">
                                         <NavLink to="blog-details">
-                                            <img src={blogBig} alt="blog image"></img>
+                                            <img src={blogBig2} alt="blog image"></img>
                                         </NavLink>
                                     </div>
                                     <div className="postbox__content grey-bg">
@@ -72,7 +70,7 @@ const Blog = () => {
                                 <article className="postbox mb-40">
                                     <div className="postbox__thumb w-img">
                                         <NavLink to="blog-details">
-                                            <img src={blogBig} alt="blog image"></img>
+                                            <img src={blogBig3} alt="blog image"></img>
                                         </NavLink>
                                     </div>
                                     <div className="postbox__content grey-bg">
