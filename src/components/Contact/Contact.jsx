@@ -12,6 +12,7 @@ class Contact extends React.Component {
         this.setState({value: event.target.value});
             }
 
+//TODO: Сделать остальые поля формы записи, добавить выбор даты.
 
     sendMail(event){
         let formData = new FormData();

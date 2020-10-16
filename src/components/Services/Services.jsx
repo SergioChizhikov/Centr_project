@@ -37,14 +37,14 @@ const Services = () => {
                 </div>
                 <div className="row">
                     <div className="col-xl-12">
-                        <div className="masonary-menu case__menu filter-button-group text-center mb-20">
-                            <button className="active" data-filter="*">All Department</button>
-                            <button data-filter=".cat1">Family Problem</button>
-                            <button data-filter=".cat2">Depression</button>
-                            <button data-filter=".cat3">Personal</button>
-                            <button data-filter=".cat4">Breakup</button>
-                            <button data-filter=".cat5">Frustation</button>
-                        </div>
+                        {/*<div className="masonary-menu case__menu filter-button-group text-center mb-20">*/}
+                        {/*    <button className="active" data-filter="*">All Department</button>*/}
+                        {/*    <button data-filter=".cat1">Family Problem</button>*/}
+                        {/*    <button data-filter=".cat2">Depression</button>*/}
+                        {/*    <button data-filter=".cat3">Personal</button>*/}
+                        {/*    <button data-filter=".cat4">Breakup</button>*/}
+                        {/*    <button data-filter=".cat5">Frustation</button>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 <div className="row grid">
@@ -54,10 +54,9 @@ const Services = () => {
                                 <img src="assets/img/case/02/case-04.jpg" alt="case-01"/>
                             </div>
                             <div className="case__content-2 transition-3 grey-bg-3 p-relative">
-                                <h3><a href="case-details.html">Personality Disorder</a></h3>
-                                <p>Fames nostra nascetur dis id pellentree at ligula auctor metus semper convalis ligula
-                                    augue natoque </p>
-                                <a href="case-details.html" className="link-btn">explore more</a>
+                                <h3><a href="case-details.html">Индивидуальная консультация</a></h3>
+                                <p>текст текст текст Услуга</p>
+                                <a href="case-details.html" className="link-btn">Подробности</a>
                             </div>
                         </div>
                     </div>
@@ -67,9 +66,8 @@ const Services = () => {
                                 <img src="assets/img/case/02/case-05.jpg" alt="case-01"/>
                             </div>
                             <div className="case__content-2 transition-3 grey-bg-3 p-relative">
-                                <h3><a href="case-details.html">Dysmorphic Disorder</a></h3>
-                                <p>Fames nostra nascetur dis id pellentree at ligula auctor metus semper convalis ligula
-                                    augue natoque </p>
+                                <h3><a href="case-details.html">Терапия пар</a></h3>
+                                <p>текст текст текст Услуга</p>
                                 <a href="case-details.html" className="link-btn">explore more</a>
                             </div>
                         </div>
@@ -80,10 +78,9 @@ const Services = () => {
                                 <img src="assets/img/case/02/case-06.jpg" alt="case-01"/>
                             </div>
                             <div className="case__content-2 transition-3 grey-bg-3 p-relative">
-                                <h3><a href="case-details.html">Behavioral Symptoms</a></h3>
-                                <p>Fames nostra nascetur dis id pellentree at ligula auctor metus semper convalis ligula
-                                    augue natoque </p>
-                                <a href="case-details.html" className="link-btn">explore more</a>
+                                <h3><a href="case-details.html">Семейная консультация</a></h3>
+                                <p>Семейная консультация (на приеме вся семья).</p>
+                                <a href="case-details.html" className="link-btn">Подробности</a>
                             </div>
                         </div>
                     </div>
@@ -93,10 +90,9 @@ const Services = () => {
                                 <img src="assets/img/case/02/case-01.jpg" alt="case-01"/>
                             </div>
                             <div className="case__content-2 transition-3 grey-bg-3 p-relative">
-                                <h3><a href="case-details.html">Children Disorder</a></h3>
-                                <p>Fames nostra nascetur dis id pellentree at ligula auctor metus semper convalis ligula
-                                    augue natoque </p>
-                                <a href="case-details.html" className="link-btn">explore more</a>
+                                <h3><a href="case-details.html">Отношения. Услышать и понять.</a></h3>
+                                <p>Тренинг. Отношения: услышать и понять</p>
+                                <a href="case-details.html" className="link-btn">Подробности</a>
                             </div>
                         </div>
                     </div>
@@ -106,10 +102,9 @@ const Services = () => {
                                 <img src="assets/img/case/02/case-02.jpg" alt="case-01"/>
                             </div>
                             <div className="case__content-2 transition-3 grey-bg-3 p-relative">
-                                <h3><a href="case-details.html">Depression Problem</a></h3>
-                                <p>Fames nostra nascetur dis id pellentree at ligula auctor metus semper convalis ligula
-                                    augue natoque </p>
-                                <a href="case-details.html" className="link-btn">explore more</a>
+                                <h3><a href="case-details.html">Для детей и их родителей.</a></h3>
+                                <p>Тренинг. Послушания. Для детей и их родителей.</p>
+                                <a href="case-details.html" className="link-btn">Подробности</a>
                             </div>
                         </div>
                     </div>
@@ -119,10 +114,9 @@ const Services = () => {
                                 <img src="assets/img/case/02/case-03.jpg" alt="case-01"/>
                             </div>
                             <div className="case__content-2 transition-3 grey-bg-3 p-relative">
-                                <h3><a href="case-details.html">Couple Counseling</a></h3>
-                                <p>Fames nostra nascetur dis id pellentree at ligula auctor metus semper convalis ligula
-                                    augue natoque </p>
-                                <a href="case-details.html" className="link-btn">explore more</a>
+                                <h3><a href="case-details.html">Ваша тема консультации</a></h3>
+                                <p>Консультация на тему вашей проблемы, вопроса.</p>
+                                <a href="case-details.html" className="link-btn">Подробности</a>
                             </div>
                         </div>
                     </div>

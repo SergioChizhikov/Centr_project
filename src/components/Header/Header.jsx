@@ -13,26 +13,10 @@ const Header = () => {
                                 <div className='header__top-left'>
                                     <div className='social'>
                                         <ul>
-                                            <li>
-                                                <NavLink to=''>
-                                                    <i className='fab fa-facebook-f'></i>
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink to=''>
-                                                    <i className='fab fa-twitter'></i>
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink to=''>
-                                                    <i className='fab fa-pinterest-p'></i>
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink to=''>
-                                                    <i className='fab fa-linkedin-in'></i>
-                                                </NavLink>
-                                            </li>
+                                            <li><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
