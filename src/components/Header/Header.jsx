@@ -1,6 +1,7 @@
 import React from "react";
 import logo from ".././assets/img/logo/logo.png";
 import {NavLink} from "react-router-dom";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 
 const Header = () => {
@@ -98,11 +99,14 @@ const Header = () => {
                                             </ul>
                                         </nav>
                                     </div>
-                                    <div className='header-bar info-toggle-btn d-lg-none f-right'>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
+
+                                    <div className='f-right'><MobileMenu /></div>
+                                    {/*<div className='header-bar info-toggle-btn d-lg-none f-right'>*/}
+                                    {/*    <span></span>*/}
+                                    {/*    <span></span>*/}
+                                    {/*    <span></span>*/}
+                                    {/*</div>*/}
+
                                     <div className='header__btn d-none d-xl-block'>
                                         <NavLink to='contact' className='s-btn s-btn__square'>
                                             Записаться
@@ -115,57 +119,56 @@ const Header = () => {
                 </div>
             </div>
 
-            <section className='info__area transition-3'>
-                <div className='info__area-inner'>
-                    <nav className='side-mobile-menu'>
-                        <div className='info__close-icon text-right mb-20'>
-                            <button className='info-close-btn'>
-                                <i className='fal fa-times'></i>
-                            </button>
-                        </div>
-                        <ul id='mobile-menu-active'>
-                            <li className='has-dropdown'>
-                                <NavLink exact to=''>Главная</NavLink>
-                            </li>
-                            <li className='has-dropdown'>
-                                <NavLink to='about'>Кто мы</NavLink>
+            {/*<section className='info__area transition-3'>*/}
+            {/*    <div className='info__area-inner'>*/}
+            {/*        <nav className='side-mobile-menu'>*/}
+            {/*            <div className='info__close-icon text-right mb-20'>*/}
+            {/*                <button className='info-close-btn'>*/}
+            {/*                    <i className='fal fa-times'></i>*/}
+            {/*                </button>*/}
+            {/*            </div>*/}
+            {/*            <ul id='mobile-menu-active'>*/}
+            {/*                <li className='has-dropdown'>*/}
+            {/*                    <NavLink exact to=''>Главная</NavLink>*/}
+            {/*                </li>*/}
+            {/*                <li className='has-dropdown'>*/}
+            {/*                    <NavLink to='about'>Кто мы</NavLink>*/}
+            {/*                            </li>*/}
+            {/*                <li className='has-dropdown'>*/}
+            {/*                    <NavLink to='services'>Наши услуги</NavLink>*/}
+            {/*                            </li>*/}
+            {/*                /!* <li className ="has-dropdown"><a href="case.html">cases</a>*/}
+            {/*        <ul className ="submenu">*/}
+            {/*            <li><a href="case.html">case </a></li>*/}
+            {/*            <li><a href="case-details.html">case details</a></li>*/}
+            {/*        </ul>*/}
+            {/*    </li> *!/*/}
+            {/*                /!* <li className ="has-dropdown"><a href="#">pages</a>*/}
+            {/*        <ul className ="submenu">*/}
+            {/*            <li><a href="team.html">our team</a></li>*/}
+            {/*            <li><a href="team-details.html">team details</a></li>*/}
+            {/*            <li><a href="events.html">events and offers</a></li>*/}
+            {/*            <li><a href="appointment.html">appointment</a></li>*/}
+            {/*        </ul>*/}
+            {/*    </li> *!/*/}
+            {/*                <li className='has-dropdown'>*/}
+            {/*                    <NavLink to='blog'>Статьи</NavLink>*/}
+            {/*                </li>*/}
+            {/*                <li>*/}
+            {/*                    <NavLink to='contact.html'>Контакты</NavLink>*/}
+            {/*                </li>*/}
+            {/*            </ul>*/}
+            {/*        </nav>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
 
-                            </li>
-                            <li className='has-dropdown'>
-                                <NavLink to='services'>Наши услуги</NavLink>
-
-                            </li>
-                            {/* <li className ="has-dropdown"><a href="case.html">cases</a>
-                    <ul className ="submenu">
-                        <li><a href="case.html">case </a></li>
-                        <li><a href="case-details.html">case details</a></li>
-                    </ul>
-                </li> */}
-                            {/* <li className ="has-dropdown"><a href="#">pages</a>
-                    <ul className ="submenu">
-                        <li><a href="team.html">our team</a></li>
-                        <li><a href="team-details.html">team details</a></li>
-                        <li><a href="events.html">events and offers</a></li>
-                        <li><a href="appointment.html">appointment</a></li>
-                    </ul>
-                </li> */}
-                            <li className='has-dropdown'>
-                                <NavLink to='blog'>Статьи</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='contact.html'>Контакты</NavLink>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
             <div className='body-overlay transition-3'></div>
 
-            {/*<div className='scroll-up' id='scroll' style={{display: 'none'}}>*/}
-            {/*    <a href='javascript:void(0);'>*/}
-            {/*        <i className='far fa-angle-up'></i>*/}
-            {/*    </a>*/}
-            {/*</div>*/}
+            <div className='scroll-up' id='scroll' style={{display: 'none'}}>
+                <NavLink to="#" onClick={e => e.preventDefault()} >
+                    <i className='far fa-angle-up'></i>
+                </NavLink>
+            </div>
         </header>
     );
 };
