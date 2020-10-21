@@ -119,49 +119,6 @@ const Header = () => {
                 </div>
             </div>
 
-            {/*<section className='info__area transition-3'>*/}
-            {/*    <div className='info__area-inner'>*/}
-            {/*        <nav className='side-mobile-menu'>*/}
-            {/*            <div className='info__close-icon text-right mb-20'>*/}
-            {/*                <button className='info-close-btn'>*/}
-            {/*                    <i className='fal fa-times'></i>*/}
-            {/*                </button>*/}
-            {/*            </div>*/}
-            {/*            <ul id='mobile-menu-active'>*/}
-            {/*                <li className='has-dropdown'>*/}
-            {/*                    <NavLink exact to=''>Главная</NavLink>*/}
-            {/*                </li>*/}
-            {/*                <li className='has-dropdown'>*/}
-            {/*                    <NavLink to='about'>Кто мы</NavLink>*/}
-            {/*                            </li>*/}
-            {/*                <li className='has-dropdown'>*/}
-            {/*                    <NavLink to='services'>Наши услуги</NavLink>*/}
-            {/*                            </li>*/}
-            {/*                /!* <li className ="has-dropdown"><a href="case.html">cases</a>*/}
-            {/*        <ul className ="submenu">*/}
-            {/*            <li><a href="case.html">case </a></li>*/}
-            {/*            <li><a href="case-details.html">case details</a></li>*/}
-            {/*        </ul>*/}
-            {/*    </li> *!/*/}
-            {/*                /!* <li className ="has-dropdown"><a href="#">pages</a>*/}
-            {/*        <ul className ="submenu">*/}
-            {/*            <li><a href="team.html">our team</a></li>*/}
-            {/*            <li><a href="team-details.html">team details</a></li>*/}
-            {/*            <li><a href="events.html">events and offers</a></li>*/}
-            {/*            <li><a href="appointment.html">appointment</a></li>*/}
-            {/*        </ul>*/}
-            {/*    </li> *!/*/}
-            {/*                <li className='has-dropdown'>*/}
-            {/*                    <NavLink to='blog'>Статьи</NavLink>*/}
-            {/*                </li>*/}
-            {/*                <li>*/}
-            {/*                    <NavLink to='contact.html'>Контакты</NavLink>*/}
-            {/*                </li>*/}
-            {/*            </ul>*/}
-            {/*        </nav>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
-
             <div className='body-overlay transition-3'></div>
 
             <div className='scroll-up' id='scroll' style={{display: 'none'}}>
