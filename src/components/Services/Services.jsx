@@ -6,8 +6,7 @@ const Services = () => {
     return (
 <div>
     <main>
-
-        <section className="page__title p-relative pt-200 pb-200"
+        <section className="page__title p-relative pt-90 pb-100"
                  >
             <Carousel_1 />
             <div className="container">

@@ -21,7 +21,7 @@ function Carousel_1 (){
             autoplay
         >
             <div className="item">
-                <div align="center"><h2>Консультации по взаимоотношению детей</h2>
+                <div align="center"><h2>Для детей и их родителей.</h2>
                     <img src={slider1}      alt="" />
                 </div>
             </div>

@@ -1,24 +1,22 @@
 import React from "react";
-
-
+import {NavLink} from "react-router-dom";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import awardlist from "../assets/img/award/list/award-list-1.png";
 import awardlist2 from "../assets/img/award/list/award-list-2.png";
 import awardlist3 from "../assets/img/award/list/award-list-3.png";
 import appointment from "../assets/img/appointment/appointment-mission.jpg";
 import slider1 from "../assets/img/slider/02/slider-1.jpg";
-import {NavLink} from "react-router-dom";
+
 
 const Main = () => {
 	return (
 		<div>
-
-
 			<div className='slider-area p-relative'>
 				<div className='slider-arrow p-absolute bounce smooth-scroll'>
-					<NavLink to='#appointment__area-2' className='slider-arrow-btn'>
+					<AnchorLink href='#page' className='slider-arrow-btn'>
 						<i className='fal fa-long-arrow-down'></i>
-					</NavLink>
+					</AnchorLink>
 				</div>
 				<div className='item slider-active slider-active-2'>
 					<div
@@ -40,7 +38,7 @@ const Main = () => {
 										</p>
 										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
 											<NavLink to ='contact' className='s-btn s-btn__square'>
-												Получите надежную точку опоры.
+												Запись на ближайший тренинг.
 											</NavLink>
 										</div>
 									</div>
@@ -106,7 +104,7 @@ const Main = () => {
 			</div>
 
 			<section
-				id='appointment__area-2'
+				id='page'
 				className='appointment__area appointment__area-2 pt-120 pb-60 box-105'
 			>
 				<div className='container-fluid'>
