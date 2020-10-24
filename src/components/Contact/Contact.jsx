@@ -12,7 +12,7 @@ class Contact extends React.Component {
         this.setState({value: event.target.value});
             }
 
-//TODO: Сделать остальые поля формы записи, добавить выбор даты.
+
 
     sendMail(event){
         let formData = new FormData();
@@ -109,8 +109,8 @@ class Contact extends React.Component {
                                             </div>
                                             <div className="contact__info-content">
                                                 <h3>Наш адрес</h3>
-                                                <span>Палаты Аверкия</span>
-                                                <span> Входить от Москва реки</span>
+                                                <span>г. Москва</span>
+                                                <span>м. Чистые Пруды</span>
                                             </div>
                                         </div>
                                     </div>
@@ -121,9 +121,10 @@ class Contact extends React.Component {
                                                 <span className="icon flaticon-support-1"></span>
                                             </div>
                                             <div className="contact__info-content">
-                                                <h3>Можете связаться по телефонам:</h3>
-                                                <span>(+7) 495 - 926 - 3265 </span>
-                                                <span>(+7) 499 - 223 - 6524</span>
+                                                <h3>Звоните нам:</h3>
+                                                <span>Екатерина +7-903-622-2677</span>
+                                                <span>Елена +7-903-255-6251</span>
+                                                <span>WhatsApp, Telegram, Viber</span>
                                             </div>
                                         </div>
                                     </div>
@@ -135,9 +136,8 @@ class Contact extends React.Component {
                                             </div>
                                             <div className="contact__info-content">
                                                 <h3>Email для связи</h3>
-                                                <span>test@btest.com</span>
-                                                <span>info@btest.com</span>
-                                            </div>
+                                                <span>m.psytherapy@gmail.com</span>
+                                                                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -30,16 +30,18 @@ const Aboutus = () => {
                                         <div className ="section__icon mb-10">
                                             <span className ="section__sub-title section__sub-title-2">Добро пожаловать в Центр здоровых отношений.</span>
                                         </div>
-                                        <h1 className ="mb-100">Наши пациенты всегда счастливы.</h1>
+                                        <h1 className ="mb-100">Наши клиенты всегда удовлетворены результатом.</h1>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole there eiusmod tempor incididub labore  dolore magna aliqua denim ads minim veniam, quis nostrud exerctation ullamco nisi above murli aliquip commodo imperdet</p>
+                                    <p>Мы практикующие психологи со степенью магистра в области системной семейной психотерапии.</p>
 
                                     <div className ="about__info-2 d-sm-flex mb-60">
                                         <div className ="about__info-experience white-bg mr-40">
                                             <h1>20 лет практики</h1>
                                         </div>
-                                        <p>Lobortis facilisis potenti dictumst auctor at semper amet dis elit, neque nulla lectus. Nascetur habitasse dignissim className  ac vehicula ultricies conubia suspendisse aenean suscipit nulla verra volutpat velit orci montes maece nas lorem porttitor tortor dise montes fames nascetur auctor dui rhoncus phasellus id sagittis a praesent dui rhoncus porttitor nullam commodo ultricess</p>
+                                        <p>Мы - авторы и ведущие тренинга
+                                            "Отношения: услышать и понять",
+                                            результаты которого научно подтверждены и были представлены на нескольких международных научно-практических конференциях.</p>
                                     </div>
                                     <div className ="about-bottom d-sm-flex">
                                         <div className ="about-author mr-30 mb-30">
@@ -47,11 +49,27 @@ const Aboutus = () => {
                                                 <div className ="ab-author">
                                                     <h3>Чекалина Елена</h3>
                                                     <span>психолог</span>
+
                                                 </div>
+
                                         </div>
-                                        <div className ="about-btn mr-40 mb-30">
-                                            <a href="about-us.html" className ="s-btn s-btn__square s-btn__square-2" tabindex="0">more about us</a>
+                                        {/*<div className ="about-btn mr-40 mb-30">*/}
+                                        {/*    <a href="about-us.html" className ="s-btn s-btn__square s-btn__square-2" tabindex="0">more about us</a>*/}
+                                        {/*</div>*/}
+                                    </div>
+                                    <div className ="about-bottom d-sm-flex">
+                                        <div className ="about-author mr-30 mb-30">
+                                            <img src="assets/img/about/author.png" alt=""></img>
+                                            <div className ="ab-author">
+                                                <h3>Родина Екатерина</h3>
+                                                <span>психолог</span>
+
+                                            </div>
+
                                         </div>
+                                        {/*<div className ="about-btn mr-40 mb-30">*/}
+                                        {/*    <a href="about-us.html" className ="s-btn s-btn__square s-btn__square-2" tabindex="0">more about us</a>*/}
+                                        {/*</div>*/}
                                     </div>
                                 </div>
                             </div>
@@ -81,9 +99,13 @@ const Aboutus = () => {
                                 <div className ="testimonial__wrapper testimonial__wrapper-3 pt-50 pb-35">
                                     <div className ="section__title mb-20">
                                         <div className ="section__icon mb-10">
-                                            <span className ="section__sub-title section__sub-title-2 section__sub-title-3">patients feedbak</span>
+                                            <span className ="section__sub-title section__sub-title-2 section__sub-title-3"></span>
                                         </div>
-                                        <h1>Happy Patient Feedback About our Service</h1>
+                                        <h1>Отношения не складываются?
+                                            Устали от взаимных претензий и проблем?
+                                            Чувствуете одиночество в отношениях?<br/><br/>
+
+                                            Мы поможем!</h1>
                                     </div>
                                     <div className ="testimonial__slider-3 owl-carousel">
                                         <div className ="testimonial__item-3">

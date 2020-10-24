@@ -15,9 +15,9 @@ const Header = () => {
                                 <div className='header__top-left'>
                                     <div className='social'>
                                         <ul>
-                                            <li><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=100005637134889"><i className="fab fa-facebook-f"></i></a></li>
                                             <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="https://www.instagram.com/elena_chekalina/"><i className="fab fa-instagram"></i></a></li>
                                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                                         </ul>
                                     </div>
@@ -40,7 +40,7 @@ const Header = () => {
                                         </div>
                                         <div className='header__info-text'>
                                             <span>Мы читаем почту:</span>
-                                            <span>info@cfhr.ru</span>
+                                            <span>m.psytherapy@gmail.com</span>
                                         </div>
                                     </div>
                                 </div>
