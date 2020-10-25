@@ -58,7 +58,7 @@ const Footer = () => {
                             <div className='col-xl-2 col-lg-6 col-md-6 offset-xl-1 mb-50'>
                                 <div className='footer__widget'>
                                     <div className='footer__widget-title mb-25'>
-                                        <h2>Мы полезны:</h2>
+                                        <h2>Страницы:</h2>
                                     </div>
                                     <div className='footer__widget-content'>
                                         <div className='footer__services'>

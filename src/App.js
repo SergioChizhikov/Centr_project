@@ -7,8 +7,8 @@ import Contact from "./components/Contact/Contact";
 import {Route, BrowserRouter} from "react-router-dom";
 import Aboutus from "./components/About/Aboutus";
 import Services from "./components/Services/Services";
-import Carousel_1 from "./components/Carousel/Carousel_1";
-import MobileMenu from "./components/MobileMenu/MobileMenu";
+import Carousel_2 from "./components/Carousel/CarouselAbout";
+import Training from "./components/Training/Training";
 
 
 function App() {
@@ -43,13 +43,13 @@ function App() {
                 }}/>
 
                 <Route path="/car" render={() => {
-                    return <div>
-                        <Carousel_1/>
+                    return <div className="mt-200">
+                        <Carousel_2/>
                     </div>
                 }}/>
-                <Route path="/test" render={() => {
+                <Route path="/training" render={() => {
                     return <div>
-                        <MobileMenu/>
+                        <Training/>
                     </div>
                 }}/>
                 <Footer/>

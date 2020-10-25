@@ -91,7 +91,7 @@ const Header = () => {
                                     {/*</div>*/}
 
                                     <div className='header__btn d-none d-xl-block'>
-                                        <NavLink to='contact' className='s-btn s-btn__square'>
+                                        <NavLink to='training' className='s-btn s-btn__square'>
                                             Ближайшие тренинги.
                                         </NavLink>
                                     </div>
@@ -105,7 +105,7 @@ const Header = () => {
             <div className='body-overlay transition-3'></div>
 
             <div className='scroll-up' id='scroll' style={{display: 'none'}}>
-                <NavLink to="#" onClick={e => e.preventDefault()}>
+                <NavLink to="#up" onClick={e => e.preventDefault()}>
                     <i className='far fa-angle-up'></i>
                 </NavLink>
             </div>

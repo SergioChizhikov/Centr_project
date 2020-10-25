@@ -37,7 +37,7 @@ const Main = () => {
 											по Skype, WhatsApp, Telegram, Zoom — это удобно
 										</p>
 										<div className='slider-btn' data-animation='fadeInUp' data-delay='.8s'>
-											<NavLink to ='contact' className='s-btn s-btn__square'>
+											<NavLink to ='training' className='s-btn s-btn__square'>
 												Запись на ближайший тренинг.
 											</NavLink>
 										</div>
