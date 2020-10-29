@@ -1,11 +1,10 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import slider1 from "../assets/img/slider/02/slider-1.jpg";
-import {NavLink} from "react-router-dom";
-import awardlist from "../assets/img/award/list/award-list-1.png";
-import awardlist2 from "../assets/img/award/list/award-list-2.png";
-import awardlist3 from "../assets/img/award/list/award-list-3.png";
-import appointment from "../assets/img/appointment/appointment-mission.jpg";
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import slider2 from "../assets/img/slider/03/slider-01.jpg";
+import {NavLink} from "react-router-dom";
+import chekalina from "../assets/img/testimonial/chekalina_75.jpg";
+import rodina from "../assets/img/testimonial/rodina_75.jpg";
+
 
 
 const Training = () => {
@@ -17,22 +16,22 @@ const Training = () => {
                         <i className='fal fa-long-arrow-down'></i>
                     </AnchorLink>
                 </div>
-                <div className='item slider-active slider-active-2'>
+                <div className=' '>
                     <div
-                        className='single-slider slider-height-2 slider-overlay p-relative slider-height d-flex align-items-center'
-                        style={{backgroundImage: `url(${slider1})`}}
+                        className='single-slider slider-height-3 slider-overlay p-relative slider-height d-flex align-items-center'
+                        style={{backgroundImage: `url(${slider2})`}}
                     >
                         <div className='container'>
                             <div className='row align-items-center'>
                                 <div className='col-xl-9'>
-                                    <div className='slider-content slider-content-2'>
+                                    <div className='slider-content slider-content-3'>
 										<span data-animation='fadeInUp' data-delay='.2s'>
 											5 шагов - 5 суббот - 5 встреч
 										</span>
                                         <h2 data-animation='fadeInUp' data-delay='.4s'>
-                                            ТРЕНИНГ
-                                            "ОТНОШЕНИЯ:
-                                            УСЛЫШАТЬ И ПОНЯТЬ"{" "}
+                                            Тренинг.
+                                            "Отношения:
+                                            Услышать и понять"
                                         </h2>
                                         <p data-animation='fadeInUp' data-delay='.6s'>
                                             СТАРТ НОВОГО ПОТОКА 16 НОЯБРЯ!
@@ -157,7 +156,7 @@ const Training = () => {
                                             <div
                                                 className="testimonial__person testimonial__person-2 d-flex align-items-center">
                                                 <div className="testimonial__avater">
-                                                    <img src="assets/img/testimonial/person-1.png" alt="" />
+                                                    <img src={chekalina} alt="Chekalina photo" />
                                                 </div>
                                                 <div className="testimonial__info">
                                                     <h3>Елена Чекалина</h3>
@@ -177,7 +176,7 @@ const Training = () => {
                                             <div
                                                 className="testimonial__person testimonial__person-2 d-flex align-items-center">
                                                 <div className="testimonial__avater">
-                                                    <img src="assets/img/testimonial/person-2.png" alt="" />
+                                                    <img src={rodina} alt="Rodina photo" />
                                                 </div>
                                                 <div className="testimonial__info">
                                                     <h3>Екатерина Родина</h3>

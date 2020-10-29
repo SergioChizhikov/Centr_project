@@ -20,7 +20,7 @@ export default function MobileMenu() {
                     <span></span>
                 </div>
             </DropdownToggle>
-            <DropdownMenu right style = {{background: '#056c5f'}}>
+            <DropdownMenu  right style = {{background: '#056c5f'}}>
                 <DropdownItem header>Меню</DropdownItem>
                 <DropdownItem color black><NavLink exact to='' style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#f8a683', textDecoration: 'none'}}>Главная</NavLink></DropdownItem>
                 <DropdownItem divider/>

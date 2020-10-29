@@ -83,7 +83,7 @@ const Header = () => {
                                         </nav>
                                     </div>
 
-                                    <div className='f-right'><MobileMenu/></div>
+                                    <div className='f-right mr-45'><MobileMenu/></div>
                                     {/*<div className='header-bar info-toggle-btn d-lg-none f-right'>*/}
                                     {/*    <span></span>*/}
                                     {/*    <span></span>*/}
